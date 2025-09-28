@@ -32,33 +32,41 @@ This agent is powered by:
 ## ⚙️ Installation
 
 1. **Clone the repository**:    
-git clone <repository_url>
-cd <repository_folder>
+```
+git clone https://github.com/bisistashrestha/Todoist-Task-Manager-Agent.git
+cd Todoist-Task-manager-Agent
+```
 
-2. Install dependencies:    
+2. **Install dependencies**:    
+```
 pip install -r requirements.txt
+```
 
-3. Set up environment variables:    
+3. **Set up environment variables**:    
 Create a .env file in the root folder and add:  
+```
 TODOIST_API_KEY=your_todoist_api_key_here
-GEMINI_API_KEY=your_google_gemini_api_key_here  
+GEMINI_API_KEY=your_google_gemini_api_key_here 
+``` 
 
 ---
 
 ## 💻 Usage     
 Run the assistant from terminal:    
+```
 python main.py
+```
 
 Example conversation:   
-You: Add a task to finish my math homework
-AI: Task "finish my math homework" has been added to your Todoist.
+You: Add a task to finish my math homework  
+AI: Task "finish my math homework" has been added to your Todoist.  
 
-You: Show my tasks
-AI: Here are your current tasks:
+You: Show my tasks  
+AI: Here are your current tasks:    
 - finish my math homework
 - buy groceries
 - complete project report   
-Press CTRL+C to stop the agent.
+Press ```CTRL+C``` to stop the agent.
 
 ---
 
