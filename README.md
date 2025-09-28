@@ -42,9 +42,9 @@ pip install -r requirements.txt
 3. Set up environment variables:    
 Create a .env file in the root folder and add:  
 TODOIST_API_KEY=your_todoist_api_key_here
-GEMINI_API_KEY=your_google_gemini_api_key_here
+GEMINI_API_KEY=your_google_gemini_api_key_here  
 
---- 
+---
 
 ## 💻 Usage     
 Run the assistant from terminal:    
