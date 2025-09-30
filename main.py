@@ -1,3 +1,18 @@
+# ================================================================
+# File: main.py
+# Author: Bisista Shrestha
+# Date: 2025-09-30
+# License: MIT License (see LICENSE file for details)
+# Description:
+#     This script integrates Google Gemini and Todoist APIs to create
+#     a conversational AI assistant that helps users manage their tasks.
+#
+#     - Uses LangChain with Google Generative AI (Gemini).
+#     - Connects to Todoist API for task management.
+#     - Supports adding tasks and showing current tasks.
+#     - Runs in an interactive loop with conversation history.
+# ================================================================
+
 from dotenv import load_dotenv
 import os
 
