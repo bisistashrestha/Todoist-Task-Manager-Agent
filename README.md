@@ -6,12 +6,12 @@
 [![Todoist](https://img.shields.io/badge/Todoist-API-red)](https://developer.todoist.com/)
 
 **Author:** Bisista Shrestha  
-**Date:** 2025-09-27  
+**Date:** 2025-09-30  
 
 ---
 
 ## 🚀 Overview
-The **Todoist AI Assistant** is a conversational agent that integrates **Google Gemini 2.5 LLM** (via LangChain) with the **Todoist API**.  
+The **Todoist AI Assistant** is a conversational agent that integrates **Google Gemini 2.5 Flash** (`gemini-2.5-flash`, via LangChain) with the **Todoist API**.  
 It allows you to **manage tasks naturally through chat**, enabling you to add tasks, view tasks, and interact with your Todoist account using simple language.
 
 This agent is powered by:
@@ -34,16 +34,25 @@ This agent is powered by:
 1. **Clone the repository**:    
 ```
 git clone https://github.com/bisistashrestha/Todoist-Task-Manager-Agent.git
-cd Todoist-Task-manager-Agent
+cd Todoist-Task-Manager-Agent
 ```
 
-2. **Install dependencies**:    
+2. **Create and activate a virtual environment** *(recommended)*:
+```
+python -m venv .venv
+# Windows
+.venv\Scripts\activate
+# macOS/Linux
+source .venv/bin/activate
+```
+
+3. **Install dependencies**:    
 ```
 pip install -r requirements.txt
 ```
 
-3. **Set up environment variables**:    
-Create a .env file in the root folder and add:  
+4. **Set up environment variables**:    
+Create a `.env` file in the root folder and add:  
 ```
 TODOIST_API_KEY=your_todoist_api_key_here
 GEMINI_API_KEY=your_google_gemini_api_key_here 
